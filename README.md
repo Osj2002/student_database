@@ -1,19 +1,24 @@
-Student Database Mini Project(s16807)
+**Student Database Mini Project(s16807)**<br><br><br>
 
--------------------------Description-----------------------
-This is a java project for managing a database for a university. The project implements CRUD (Create, Read, Update, Delete) operations using Java and MySQL.
+**Description**<br><br>
+This is a java project for managing a database for a university. The project implements CRUD (Create, Read, Update, Delete) operations using Java and MySQL.<br>
 
-----------------------Technical Requirements---------------------
-Database System: MySQL
-Java Version: Java 8 or later(IntelliJ)
+**CheckConnection** ->  Checking whether if Java file is connected to the sql database<br>
+**CreateTable** ->  Creating a student table with column names: ID ,Name, GPA, Department, age, Year<br>
+**Insert** -> Inserting student details to the student table by taking user inputs <br>
+**UpdateDelete** -> Update and delete specific student detail from the student table<br><br><br>
 
----------------------------Setup Instructions---------------------
-Download and install MySQL from https://dev.mysql.com/downloads/.
-set up a password to MYSQL
-Create a new database for the project:
-CREATE DATABASE student_database;
-- change the "DB_password" with the real password in every file in the Java code
-Add sql conncetor to the IntelliJ
-Run the program
+**Technical Requirements**<br><br>
+Database System: MySQL<br>
+Java Version: Java 8 or later(IntelliJ)<br><br><br>
 
-Can add rows representing student details to the 'Insert' Java file, edit and delete the rows of students using 'UpdateDelete' Java file and add new columns to the database from 'Create' java file.
+**Setup Instructions**<br><br>
+Download and install MySQL and IntelliJ.<br>
+set up a password to MYSQL<br>
+Create a database**(student_database)** for the project<br>
+
+change the **"DB_password"** with the real sql password in every Java file.<br>
+Add sql conncetor to the IntelliJ<br>
+Run the program<br>
+
+
