@@ -6,7 +6,7 @@ public class Insert {
         // credentials to make the connection
         String url = "jdbc:mysql://localhost:3306/student_database";
         String user = "root";
-        String password = "0987@Snowy";
+        String password = "DB_password";
 
         try (Connection con = DriverManager.getConnection(url, user, password);
              Statement stmt = con.createStatement();
@@ -48,3 +48,4 @@ public class Insert {
         }
     }
 }
+
