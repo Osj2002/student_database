@@ -8,12 +8,11 @@ public class CheckConnection {
 
 
         try {
-            // 1. Load the MySQL JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // 2. Create a connection
+            //Create a connection
             Connection con = DriverManager.getConnection(url, user, password);
-            System.out.println("Database Connected Successfully! heloooo");
+            System.out.println("Database Connected Successfully!");
 
 
         } catch (Exception e) {
@@ -21,4 +20,5 @@ public class CheckConnection {
         }
 
     }
+
 }
