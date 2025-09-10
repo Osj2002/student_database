@@ -2,7 +2,7 @@ import java.sql.*;
 
 public class CheckConnection {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306//student_database";
+        String url = "jdbc:mysql://localhost:3306/student_database";
         String user = "root";
         String password = "DB_PASSWORD";
 
@@ -22,4 +22,5 @@ public class CheckConnection {
     }
 
 }
+
 
