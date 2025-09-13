@@ -27,7 +27,7 @@ public class UpdateDelete {
                     System.out.print("Enter new name: ");
                     String newName = scanner.nextLine();
 
-                    System.out.print("Enter new GPA (e.g., 3.75): ");
+                    System.out.print("Enter new GPA: ");
                     double newGPA = scanner.nextDouble();
                     scanner.nextLine();
 
@@ -48,7 +48,7 @@ public class UpdateDelete {
                     pstmt.setInt(6, id);
 
                     int updated = pstmt.executeUpdate();
-                    System.out.println(updated + " record(s) updated.");
+                    System.out.println(updated + " record updated.");
                 }
 
             } else if (choice == 2) {
@@ -72,5 +72,6 @@ public class UpdateDelete {
         }
     }
 }
+
 
 
