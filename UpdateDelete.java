@@ -5,7 +5,7 @@ public class UpdateDelete {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/student_database";
         String user = "root";
-        String password = "DB_Password";  
+        String password = "DB_PASSWORD";  
 
         try (Connection con = DriverManager.getConnection(url, user, password);
              Scanner scanner = new Scanner(System.in)) {
@@ -72,4 +72,5 @@ public class UpdateDelete {
         }
     }
 }
+
 
